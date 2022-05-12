@@ -36,7 +36,7 @@ $login = $senha = $check = "";
             
             <a href="Cadastro.php">Novo Cadastro</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <label>
-            <a href="LoginEditar.php"> Editar cadastro</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="LoginEditar.php"> Editar Cadastro</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </label>
             <a href="RecuperarSenha.php">Recuperar Senha</a>
             <br>
