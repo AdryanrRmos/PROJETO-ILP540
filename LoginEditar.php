@@ -13,7 +13,7 @@
     <div class="content">      
       <div id="login">
         <form method="post" action="processocokie.php"> 
-          <h1>Editar login</h1> 
+          <h1>Editar cadastro</h1> 
           <label>
             <p>E-mail:</p><br>
             <input id="login" name="login" type="text" placeholder="Digite seu E-mail" value="">
