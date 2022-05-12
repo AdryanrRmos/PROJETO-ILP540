@@ -1,17 +1,17 @@
-<?php 
+<bdo?php 
 $login = $senha = $check = "";
  if(isset($_COOKIE["login"])){
       $login = $_COOKIE["login"];
        $check = "checked"; 
        } if(isset($_COOKIE["senha"])) 
        $senha = $_COOKIE["senha"]; ?>
-       ?>
+       
 <!DOCTYPE html>
 <head>
   <meta charset="UTF-8" />
   <title>OURO VERDE - ESPORTES</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-  <link rel="stylesheet"  href="style.css" />
+  <link rel="stylesheet"  href="Login.css" />
 </head>
 <body>
   <div class="container" >
@@ -40,9 +40,10 @@ $login = $senha = $check = "";
             <a href="Cadastro.html">Novo Cadastro</a>
             <a href="LoginEditar.html"> Editar cadastro </a> 
             <a href="RecuperarSenha.html">Recuperar Senha</a>
+            
             <input type="checkbox" name="manterlogado" id="manterlogado" value="" /> 
            <label>
-            <input name="salvar" type="checkbox" <?=$check?>>
+            <input name="salvar" type="checkbox" <?=$check?>
             Manter-me logado
           </label>
           </p>
