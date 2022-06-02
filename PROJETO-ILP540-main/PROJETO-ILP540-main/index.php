@@ -37,7 +37,7 @@
                 </div>
                 <label>
                   <input type="checkbox" name ="salvar" <?=$check?>>
-                  salvar dados de acesso
+                  Salvar dados de acesso
                 </label>
 
                 <input type = "submit" class="btn btn-success btn-lg btn-block" value="Logar">
