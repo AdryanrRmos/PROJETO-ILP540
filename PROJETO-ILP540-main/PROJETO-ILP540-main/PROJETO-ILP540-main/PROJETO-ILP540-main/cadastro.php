@@ -56,27 +56,27 @@ else{
             <form action="process_cadastrar.php" method="post">
             <div class="form-group">
                   <label for="exampleInputEmail1">Nome </label>
-                  <input type="text" name="nome" class="form-control" id="nome" aria-describedby="emailHelp" value="<?= $nome ?>">
+                  <input type="text" name="nome" class="form-control" id="nome" aria-describedby="emailHelp" value="<?= $nome ?>"required>
                   Por favor, informe seu Nome.
             </div>
             <div class="form-group">
                   <label for="exampleInputEmail1">Email</label>
-                  <input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp" value="<?= $email ?>">
+                  <input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp" value="<?= $email ?>"required>
                   Por favor, informe seu Email.
             </div>
             <div class="form-group">
                   <label for="exampleInputEmail1">Login</label>
-                  <input type="text" name="login" class="form-control" id="login" aria-describedby="emailHelp" value="<?= $login ?>">
+                  <input type="text" name="login" class="form-control" id="login" aria-describedby="emailHelp" value="<?= $login ?>"required>
                   Por favor, informe seu Login.
             </div>    
             <div class="form-group">
                   <label for="exampleInputEmail1">Senha</label>
-                  <input type="password" name="senha" class="form-control" id="senha" aria-describedby="emailHelp" value="<?= $senha ?>">
+                  <input type="password" name="senha" class="form-control" id="senha" aria-describedby="emailHelp" value="<?= $senha ?>"required>
                   Por favor, informe seu Senha.
             </div>
             <div class="form-group">
                   <label for="exampleInputEmail1">Confirme a senha</label>
-                  <input type="password" name="senha2" class="form-control" id="senha2" aria-describedby="emailHelp" value="<?= $senha ?>">
+                  <input type="password" name="senha2" class="form-control" id="senha2" aria-describedby="emailHelp" value="<?= $senha ?>"required>
                   Por favor, Confirme a sua Senha.
             </div>            
             <input type = "submit" class="btn btn-success btn-lg btn-block" value="Cadastrar"></a>
