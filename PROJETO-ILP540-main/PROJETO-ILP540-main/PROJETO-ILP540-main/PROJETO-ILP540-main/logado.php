@@ -16,14 +16,16 @@
     <header>
         <nav>
             <a class="OURO VERDE - ESPORTES"></a>
-            <div class="mobile-menu">
+             <div class="mobile-menu">
                 <div class="line1"></div>
                 <div class="line2"></div>
                 <div class="line3"></div>
+                <div class="line4"></div>
             </div>
             <ul class="nav-list">
-                <li><a href="/">Localização</a></li>
-                <li><a href="/">Contatos</a></li>
+                <li><a href="index.php">Login</a></li>
+                <li><a href="https://www.google.com/maps/place/Ouro+Verde+Hotel/@-22.1392794,-51.1780792,17z/data=!3m1!4b1!4m8!3m7!1s0x94946d155f7b116d:0x100ec73ebe8cf37f!5m2!4m1!1i2!8m2!3d-22.1392794!4d-51.1758905">Localização</a></li>
+                <li><a href="https://www.martinopolisempresas.com.br/busca/martinopolis/ouro+verde+ho">Contatos</a></li>
                 <li><a href="altcadastro.php">Alterar Cadastro</a></li>
                 <li><a href="sair.php">Sair</a></li>
             </ul>
@@ -39,18 +41,25 @@
                     <input type="date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="dd/mm/nnnn">
                 </div>
                 <div class="form-group">
-                  <label for="exampleInputEmail1">Horario</label>
+                  <label for="exampleInputEmail1">Horario de Inicio</label>
+                  <input type="time" class="form-control" id="exampleInputEmail1" placeholder="00:00">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Horario Final</label>
                   <input type="time" class="form-control" id="exampleInputEmail1" placeholder="00:00">
                 </div>
                 <div class="form-group">
                     <label for="exampleInputEmail1">Quadra</label>
                     <br>
-                    <input type="checkbox" name="Esporte" value="Beach Tenis"> Beach Tenis <br/> 
-                    <input type="checkbox" name="Esporte" value="Tenis"> Futebol<br/> 
-                    <input type="checkbox" name="Esporte" value="Futebol"> Tenis<br/>
-                    <input type="checkbox" name="Esporte" value="Futebol"> Futvolei<br/>
+                    <input type="checkbox" name="Esporte" value="Beach Tenis"> Beach Tenis - R$80,00 p/Hora <br/> 
+                    <input type="checkbox" name="Esporte" value="Tenis"> Futebol- R$60,00 p/Hora<br/> 
+                    <input type="checkbox" name="Esporte" value="Futebol"> Tenis- R$100,00 p/Hora<br/>
+                    <input type="checkbox" name="Esporte" value="Futebol"> Futvolei- R$50,00 p/Hora<br/>
                 </div>      
                 <a href="logado.php"><button type="button" class="btn btn-success btn-lg btn-block">Agendar </button></a>
+                <br>
+                <a href="sair.php"><button type="button" class="btn btn-danger btn-lg btn-block">Sair</button></div>
+                </br>
               </form>
         </div>
       </div>
