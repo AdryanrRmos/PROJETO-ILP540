@@ -21,9 +21,9 @@ if(isset($_SESSION["id_usuario"])){
 	            $email = $row['email'];
 	            $login = $row['login'];
 	            $senha = $row['senha'];
-	        }
-	       
-    	}	
+	            }
+            }     
+	       	
 	} catch(PDOException $e) {
 		echo $sql . "<br>" . $e->getMessage();
 	}
@@ -57,26 +57,34 @@ else{
             <div class="form-group">
                   <label for="exampleInputEmail1">Nome </label>
                   <input type="text" name="nome" class="form-control" id="nome" aria-describedby="emailHelp" value="<?= $nome ?>">
+                  Por favor, informe seu Nome.
             </div>
             <div class="form-group">
                   <label for="exampleInputEmail1">Email</label>
                   <input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp" value="<?= $email ?>">
+                  Por favor, informe seu Email.
             </div>
             <div class="form-group">
                   <label for="exampleInputEmail1">Login</label>
                   <input type="text" name="login" class="form-control" id="login" aria-describedby="emailHelp" value="<?= $login ?>">
+                  Por favor, informe seu Login.
             </div>    
             <div class="form-group">
                   <label for="exampleInputEmail1">Senha</label>
                   <input type="password" name="senha" class="form-control" id="senha" aria-describedby="emailHelp" value="<?= $senha ?>">
+                  Por favor, informe seu Senha.
             </div>
             <div class="form-group">
                   <label for="exampleInputEmail1">Confirme a senha</label>
                   <input type="password" name="senha2" class="form-control" id="senha2" aria-describedby="emailHelp" value="<?= $senha ?>">
+                  Por favor, Confirme a sua Senha.
             </div>            
             <input type = "submit" class="btn btn-success btn-lg btn-block" value="Cadastrar"></a>
+            <div>
             <br>
-            <a href="logado.php"><button type="button" class="btn btn-danger btn-lg btn-block">Voltar</button></a>
+            </div>
+            <div>
+            <a href="logado.php"><button type="button" class="btn btn-danger btn-lg btn-block">Voltar</button></div>
               </form>
         </div>
       </div>
